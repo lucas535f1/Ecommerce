@@ -1,0 +1,31 @@
+.imgArticulo{
+    width: 250px;
+    max-height: 170px;
+}
+.elemento{
+    width: 251px;
+    height: 350px;
+    border: solid black 0.5px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+    display: flex;
+    background-color: rgb(255, 230, 0);
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 7px;
+    
+}
+
+.elemento div {
+ padding: 10px;
+}
+
+.aPublicacion{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tPublicacion{
+    color: black;
+}

@@ -1,0 +1,55 @@
+.publicacion {
+    float: right;
+    margin: 15px;
+    margin-top: 85px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: calc(100vw - 230px - 60px);
+    overflow: hidden;
+}
+
+
+.imgPublicacion {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.imgContenedor {
+    width: calc(100% - 300px);
+    display: inline-block;
+    background-color:rgb(182, 173, 74);
+}
+
+.imgSubcontenedor{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    display: block;
+    width: 100%;
+    margin: 20px;
+}
+
+.informacion {
+    float: right;
+    width: 300px;
+    padding: 20px;
+
+}
+
+.informacion *{
+    text-align: center;
+}
+.precio{
+    font-size: 35px;
+}
+
+
+.descripcion {
+    width: calc(100% - 40px);
+    padding: 20px
+}

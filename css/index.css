@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(245, 241, 195) !important;
+
+}
+
+aside {
+    float: left;
+    position: fixed;
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 230px;
+    top: 70px;
+
+}
+
+.paginas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.cantidad{
+    width: 100%;
+}
+.cantidad label{
+    text-align: right !important;
+}
+
+.criterio {
+    width: 155px !important;
+    height: 38.3px !important;
+    display: inline;
+}
+
+.cosoRaro form a button {
+    height: 38.3px !important;
+}
+
+.publicaciones {
+    display: inline;
+    margin: 20px;
+}
+
+.cosoRaro form {
+    display: flex;
+    align-items: center;
+}
+
+.cosoRaro {
+    margin-right: 30px;
+}
+
+.cosoRaro form label {
+    margin-top: 1px;
+}
+
+.cosoRaro form a {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.cosoRaro form select {
+    margin: 0 10px !important;
+}
+
+.cosoRaro form orden {
+    margin: 0 !important;
+}
+
+.cabezal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    height: 70px;
+}
+
+.tituloCategorias {
+    margin: 4px;
+    margin-top: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+.articulosSection, .ultimoSection {
+    float: right;
+    margin: 15px;
+    margin-top: 85px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: calc(100vw - 230px - 60px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ultimoSection {
+    float: right;
+    margin: 15px;
+    margin-top: 85px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: calc(100vw - 230px - 60px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.texto {
+    display: block;
+    width: 100%;
+    margin: 20px;
+}

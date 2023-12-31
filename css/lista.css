@@ -1,0 +1,48 @@
+.sectionLista, .sectionCart{
+    float: right;
+    margin: 15px;
+    margin-top: 85px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: calc(100vw - 230px - 60px);
+    overflow: hidden;
+}
+
+.sectionCart{
+    float: right;
+    margin: 15px;
+    margin-top: 85px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: calc(100vw - 230px - 60px);
+    overflow: hidden;
+}
+.previewIMG{
+    height: 40px;
+}
+.aTabla{
+    text-decoration: none;
+    color: black;
+}
+
+.coso{
+    display: inline;  
+}
+.pie {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.pie div {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.pie div h4{
+    margin: 0 20px;
+}
